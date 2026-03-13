@@ -1,5 +1,4 @@
-import React from 'react';
-import { ShoppingCart, Instagram, MessageCircle, Star, Cake, Cookie, Coffee } from 'lucide-react';
+import { ShoppingCart, Instagram, MessageCircle, Star, Cake, Cookie } from 'lucide-react';
 
 function App() {
   const products = [
