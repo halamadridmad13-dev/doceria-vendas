@@ -1,20 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Pacifico&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+  --primary: #FF6B9D;
+  --primary-hover: #FF4F8B;
+  --secondary: #4A2B29;
+  --accent: #D4AF37;
+  --bg-cream: #F9F3E8;
+  --text-dark: #2D1A19;
+  --text-muted: #6B5E5D;
+}
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+body {
+  @apply bg-[var(--bg-cream)] text-[var(--text-dark)] antialiased;
+  font-family: 'Outfit', sans-serif;
+}
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+h1, h2, h3, .font-display {
+  font-family: 'Outfit', sans-serif;
+  @apply tracking-tight;
+}
+
+.font-accent {
+  font-family: 'Pacifico', cursive;
+}
+
+.glass {
+  @apply bg-white/70 backdrop-blur-lg border border-white/20;
+}
+
+.premium-shadow {
+  box-shadow: 0 20px 40px -15px rgba(74, 43, 41, 0.15);
+}
+
+.gold-gradient {
+  background: linear-gradient(135deg, #D4AF37 0%, #F1D592 50%, #D4AF37 100%);
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
 }
 
 body {
