@@ -26,6 +26,46 @@ function App() {
       price: "R$ 190,00",
       image: "/images/party-kit.png",
       tag: "Kit Completo"
+    },
+    {
+      id: 4,
+      name: "Torta de Limão",
+      description: "Base crocante, recheio cremoso de limão e cobertura de merengue maçaricado.",
+      price: "R$ 65,00",
+      image: "/images/lemon-pie.png",
+      tag: "Clássico"
+    },
+    {
+      id: 5,
+      name: "Cupcake Red Velvet",
+      description: "Massa vermelha aveludada, cobertura de cream cheese e decoração especial.",
+      price: "R$ 8,00 (unidade)",
+      image: "/images/red-velvet-cupcake.png",
+      tag: "Novidade"
+    },
+    {
+      id: 6,
+      name: "Brownie de Chocolate",
+      description: "Brownie intenso de chocolate belga, com pedaços de nozes e cobertura de ganache.",
+      price: "R$ 7,00 (unidade)",
+      image: "/images/brownie.png",
+      tag: "Irresistível"
+    },
+    {
+      id: 7,
+      name: "Trufa de Maracujá",
+      description: "Trufa artesanal com recheio cremoso de maracujá e cobertura de chocolate branco.",
+      price: "R$ 4,00 (unidade)",
+      image: "/images/passionfruit-truffle.png",
+      tag: "Gourmet"
+    },
+    {
+      id: 8,
+      name: "Palha Italiana",
+      description: "Deliciosa mistura de brigadeiro com biscoito, finalizada com açúcar de confeiteiro.",
+      price: "R$ 6,00 (unidade)",
+      image: "/images/palha-italiana.png",
+      tag: "Tradicional"
     }
   ];
 
